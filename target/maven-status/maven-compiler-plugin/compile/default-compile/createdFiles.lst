@@ -1,0 +1,7 @@
+com\vaadin\view\CalculatorView.class
+com\vaadin\model\CalculatorModel.class
+com\vaadin\view\CalculatorViewImpl.class
+com\vaadin\MyUI$MyUIServlet.class
+com\vaadin\presenter\CalculatorPresenter.class
+com\vaadin\MyUI.class
+com\vaadin\view\CalculatorView$CalculatorViewListener.class
