@@ -6,9 +6,24 @@ import java.util.List;
 
 public class Einkaufsliste {
 
+    private static Einkaufsliste einkaufsliste = null;
     private List<Artikel> artikelList = new ArrayList<>();
     private Person erfasser;
     private Date datum;
+
+    private Einkaufsliste(){
+
+    }
+
+    public static Einkaufsliste getInstance(){
+        if (einkaufsliste == null){
+            einkaufsliste = new Einkaufsliste();
+            return einkaufsliste;
+        }
+        else{
+            return einkaufsliste;
+        }
+    }
 
     public List<Artikel> getArtikelList() {
         return artikelList;

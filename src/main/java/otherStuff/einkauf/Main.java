@@ -10,8 +10,8 @@ public class Main {
         joeggu.setVorname("Dario");
         joeggu.setNachname("Carosella");
         joeggu.setAge(26);
-
-        Einkaufsliste einkaufsliste = new Einkaufsliste();
+        //create first einkaufsliste
+        Einkaufsliste einkaufsliste = Einkaufsliste.getInstance();
         einkaufsliste.setErfasser(joeggu);
         einkaufsliste.setDatum(new Date());
 
